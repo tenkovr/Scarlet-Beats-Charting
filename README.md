@@ -85,7 +85,7 @@ Go over to the [Robeats Converter](https://spotco.github.io/RobeatsWebConvert2/)
 
 <img width="825" height="719" alt="image" src="https://github.com/user-attachments/assets/6337ab21-125c-4455-a5f3-52dde070b70c" />
 
-> Keep in mind, after the next step, we will copy the text from the lines ranging from the first and last, so in this case starting from `note(2354, 4)` and ending on `hold(112123,1,3121)`, avoiding any code at the top or bottom of the file.
+> Keep in mind, after the next step, we will copy the text from the lines ranging from the first note and last note, so in this case starting from `note(2354, 4)` and ending on `hold(112123,1,3121)`, avoiding any code at the top or bottom of the file.
 
 # Making a Scarlet Beats Chart File
 Scarlet Beats uses Roblox ModuleScripts as files so importing them into the actual game is as easy as dragging the file into the songs folder. With this, let’s head over to Roblox Studio and make a ModuleScript (the world you make it in doesn’t matter).
