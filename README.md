@@ -126,13 +126,14 @@ In here fill out all the fields that make up the charts metadata. The **title** 
 ## Converting RoBeats to Scarlet Beats format
 Scarlet beats uses a slightly different format than the Robeats Converter gives us, so we need to manually change a few things in the code for this. **It's recommended to make a temporary ModuleScript file for this step.**
 
-1. Paste in the note data from the RoBeats Converter
+1. Paste in the note data from the [Robeats Converter](#Converting-to-RoBeats)
+> For metadata purposes, note down the amount of `hold(` and `note(` results shown (ctrl + F) to calculate the max combo of the song, this calculation needs to be correct in order to get a FC.
+> 
+> `(Total Holds * 2) + Total Notes = Max Combo`
 2. Using the Find and Replace tool (Ctrl + F, press dropdown)
     - Find `note(`, replace with `{`
     - Find `hold(`, replace with `{`
     - Find `)`, replace with `},`
-> For metadata purposes, note down the amount of `hold(` and `note(` results shown (ctrl + F) to calculate the max combo of the song, this calculation needs to be correct in order to get a FC.
-> `(Total Holds * 2) + Total Notes = Max Combo` 
 3. Place this note data should be inside the `module.note = { }` section of the chart file
 
 ## Artwork
