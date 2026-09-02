@@ -130,8 +130,8 @@ Scarlet beats uses a slightly different format than the Robeats Converter gives 
 
 ## Artwork
 For the cover of the chart and the artwork in-game, Scarlet Beats requires 2 files for the chart:
-1. Art - Thumbnail art (341x341px, kind of triangle shaped) - Template
-2. Fullart - In-game art (256x100px, title bar) - Template
+1. Art - Thumbnail art (341x341px, kind of triangle shaped) - [Template](https://github.com/tenkovr/Scarlet-Beats-Charting/blob/main/ScarletBeatsArtTemplate.psd)
+2. Fullart - In-game art (256x100px, title bar) - [Template](https://github.com/tenkovr/Scarlet-Beats-Charting/blob/main/ScarletBeatsFullArtTemplate.psd)
 
 For these, please use the templates linked above.
 > Use a `.psd` editor such as [Photopea](https://www.photopea.com/) to edit the files and export as a `.png` without modifying the dimensions.
