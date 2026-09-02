@@ -28,10 +28,12 @@ Let’s begin with opening up ArrowVortex and creating a chart there, this guide
 Before you start, **create a new folder** for the chart you want to create, in the folder add your audio and call it “audio.mp3”. 
 
 Open this audio file in ArrowVortex:
+
 <img width="790" height="820" alt="image" src="https://github.com/user-attachments/assets/4b6f7e91-46bd-44e1-b762-39353ee7644e" />
 
 
 After you’re happy with the chart, save it as an **osu!mania file** (File > Save As) into the same folder as your audio.
+
 <img width="386" height="165" alt="image" src="https://github.com/user-attachments/assets/ed81c1b2-de7d-408c-86bd-c1b1a46b7509" />
 
 Your folder should now have the .osu file as well as the audio.mp3 file, there might also be .sm files from saving the chart in ArrowVortex, which we can ignore.
@@ -42,10 +44,12 @@ Your folder should now have the .osu file as well as the audio.mp3 file, there m
 Next let’s open up osu! and import the song, the easiest way to do this is find your osu! songs folder, usually in `%USERPROFILE%\AppData\Local\osu!\Songs` and copying the folder there.
 
 After that’s added, you should see it in osu!. 
+
 <img width="931" height="476" alt="image" src="https://github.com/user-attachments/assets/89f9c69f-245f-4dfd-93b4-17f4145d632d" />
 
 
 Open this up in the osu! editor (main menu > edit > select the song)
+
 <img width="593" height="700" alt="image" src="https://github.com/user-attachments/assets/ad3f122a-7f14-4bf5-ba87-f0d5487693ff" />
 
 > For Scarlet Beats, the metadata doesn’t matter so you can skip this by adding whatever text you want. 
@@ -58,11 +62,13 @@ From here we have to manually adjust the tempo offset of the chart so that the n
 > If you slow down the playback rate to 25% and play the song in the editor, you can notice that the notes are slightly out of sync
 
 To fix this let’s go to the Timing tab at the top and play around with the Offset value. The offset amount can vary between charts, but the difference is usually lowering around `100ms`, but can vary.
+
 <img width="928" height="386" alt="image" src="https://github.com/user-attachments/assets/c44e8287-ec78-4e73-9aac-867c96820569" />
 
 
 
 An easy way to do this initially at first visually is to listen for the beat of the song, pause the song when the beat hits, make the large offset circle match the smaller circle.
+
 <img width="932" height="283" alt="image" src="https://github.com/user-attachments/assets/09fd013f-8e2c-4bb4-9e42-61bca0a6dfdd" />
 
 
@@ -83,6 +89,7 @@ Go over to the [Robeats Converter](https://spotco.github.io/RobeatsWebConvert2/)
 
 # Making a Scarlet Beats Chart File
 Scarlet Beats uses Roblox ModuleScripts as files so importing them into the actual game is as easy as dragging the file into the songs folder. With this, let’s head over to Roblox Studio and make a ModuleScript (the world you make it in doesn’t matter).
+
 <img width="381" height="277" alt="image" src="https://github.com/user-attachments/assets/be53c137-ce2f-4827-9685-bcde11113ec2" />
 
 Copy the following into the ModuleScript:
